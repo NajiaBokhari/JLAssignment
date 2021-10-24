@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "MacBook Pro",
+    "number": "992345365",
+    "price": 205000,
+    "quantity": 1,
+    "type": 1
+  },
+  {
+    "id": 2,
+    "name": "iPad",
+    "number": "292345363",
+    "price": 20000,
+    "quantity": 2,
+    "type": 2
+  },
+  {
+    "id": 3,
+    "name": "Power Bank",
+    "number": "992345369",
+    "price": 10000,
+    "quantity": 4,
+    "type": 1
+  }
+]

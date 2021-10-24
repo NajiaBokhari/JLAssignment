@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.nb.jlcodingchallengeandroid.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_homeFragment_to_destinationFragment"
+            app:destination="@id/destinationFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/destinationFragment"
+        android:name="com.nb.jlcodingchallengeandroid.ui.destination.DestinationFragment"
+        android:label="Destination"
+        tools:layout="@layout/fragment_destination">
+        <argument
+            android:name="destinationSelectionScreenType"
+            app:argType="com.nb.jlcodingchallengeandroid.utils.DestinationSelectionType" />
+    </fragment>
+
+</navigation>

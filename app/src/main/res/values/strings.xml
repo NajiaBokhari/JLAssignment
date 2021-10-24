@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">JLCodingChallengeAndroid</string>
+    <string name="fragment_home_button_text_call">Call</string>
+    <string name="fragment_home_button_text_buy">Buy</string>
+    <string name="fragment_home_button_text_sell">Sell</string>
+    <string name="layout_item_destination_text_name">Name: \n</string>
+    <string name="layout_item_destination_text_number">Number:\n</string>
+    <string name="layout_item_destination_text_price">Price:\n</string>
+    <string name="layout_item_destination_text_quntity">Quantity: \t\t</string>
+    <string name="layout_item_destination_text_type">Type: \t\t</string>
+</resources>
